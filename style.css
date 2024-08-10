@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+.nav-bar{
+    background-color: #f85606;
+    height: 118px;
+}
+.upper-nav{
+    padding:  0 20%;
+}
+.upper-nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.upper-nav li{
+    list-style: none;
+}
+.upper-nav a{
+    padding: 5px;
+    text-transform: uppercase;
+    padding: 0 17px;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    height: 25px;
+    display: inline-block;
+    font-family: Roboto-Regular, Helvetica Neue, Helvetica, Tahoma, Arial, Sans-serif;
+    
+}
+.middle-nav{
+    display: flex;
+    margin-top:11px;
+    padding: 0% 20%;
+}
+.middle-nav img{
+    height: 40px;
+    width: 127px;
+    display: inline-block;
+    padding-right: 73px;
+    }
+.middle-nav div{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    width: 688px;
+}
+.nav-search a{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe1d2;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: #f85606;
+}
+.nav-search input{
+    width: 643px;
+    padding: 15px 19px;
+    border: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    outline: none;
+}
+.cart{
+    height: 30px;
+    width: 30px;
+    font-size: 10px;
+    background-image: url("images/shopping-cart.png");
+    background-size: contain;
+    align-self: flex-end;
+    color: aliceblue;
+    margin-left: 20px;
+}
+.slide{
+    padding:0  19%;
+    display: flex;
+    background-color: #E7E8EC;
+    
+}
+.left-slide img{
+    object-fit: cover;
+    width: 988px;
+    height: 344px;
+}
+.left-slide{
+    background-color: #f85606;
+}
+.right-slide{
+  margin-left: 2px;  
+}
+.mid{
+    width: 100vh;
+}
+.mid img{
+    overflow: hidden;
+    object-fit: cover;
+    min-width: 1188px;
+    background-color: #F5F5F5;
+}
+.categories{
+    padding: 0% 19%;
+    bottom: -30px;
+    position: absolute;
+    background-color: #F5F5F5;
+    
+}
+.categories h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-weight: 400;
+}
+.items{
+    display: grid;
+    grid-template-columns:repeat(8,1fr);
+    grid-template-row: repeat(2,1fr);
+    gap: 1px;
+}
+.item1{
+    height: 145px;
+    width: 145px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    transition: ease 0.3s;
+}
+.item1:hover{
+    box-shadow: 2px 2px 20px #9c9c9c;
+}
